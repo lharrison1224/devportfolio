@@ -160,7 +160,6 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -174,7 +173,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: #fff;
         padding: 10px;
 
         &:hover {
@@ -694,6 +693,10 @@ footer {
         padding: 30px 15px;
         transform: none;
     }
+}
+
+.video-link {
+    margin-left: 30px;
 }
 
 #more-projects {
